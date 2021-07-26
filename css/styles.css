@@ -2,53 +2,107 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Otomanopee One', sans-serif;
-  color: #654321;
+  color: #402218;
 
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
+  font-size: 1.50rem;
   font-family: 'Otomanopee One', sans-serif;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 p {
   padding-bottom: 20px;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #D79771 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: white;
+  font-family: 'Otomanopee One', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #402218;
+}
+
+.h2-first-page {
+  font-weight: normal;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.outro {
+  width: 40%;
+  margin: 40px auto 20px;
 }
 
 .contact-me {
-  padding-bottom: 20px;
+  padding: 0 0 100px 0;
+  background-color: #FFEBC9;
   color: #654321;
 }
 
 .footer-link {
-  padding: 10px;
+  padding: 20px 0;
   color: white;
 }
 
 .top-container {
-  background-color: #B4846C;
+  background-color: #D79771;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
-  background-color: #E5B299;
+  background-color: #FFEBC9;
   padding-top: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 40%;
+  float: left;
+  margin: 0 40px 20px auto;
+}
+
+.rugby-img {
+  width: 40%;
+  float:right;
+  margin: 0 auto 20px 40px;
 }
 
 .skills {
-  background-color: #FCDEC0;
+  background-color: #FFEBC9;
 }
 
 .bottom-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #B4846C;
+  padding: 50px 0 20px;
+  background-color: #D79771;
 }
 
 .top-cloud {
@@ -58,15 +112,42 @@ p {
 }
 
 .mountain {
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .imagePosition {
-  padding-top: 30px;
+  padding-top: 0;
+}
+
+.btn {
+  background: #fc7114;
+  background-image: -webkit-linear-gradient(top, #fc7114, #733805);
+  background-image: -moz-linear-gradient(top, #fc7114, #733805);
+  background-image: -ms-linear-gradient(top, #fc7114, #733805);
+  background-image: -o-linear-gradient(top, #fc7114, #733805);
+  background-image: linear-gradient(to bottom, #fc7114, #733805);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Otomanopee One', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5b385;
+  background-image: -webkit-linear-gradient(top, #f5b385, #cf7004);
+  background-image: -moz-linear-gradient(top, #f5b385, #cf7004);
+  background-image: -ms-linear-gradient(top, #f5b385, #cf7004);
+  background-image: -o-linear-gradient(top, #f5b385, #cf7004);
+  background-image: linear-gradient(to bottom, #f5b385, #cf7004);
+  text-decoration: none;
 }
