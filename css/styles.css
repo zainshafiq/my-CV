@@ -56,7 +56,7 @@ a:hover {
 }
 
 .contact-me {
-  padding: 0 0 100px 0;
+  padding-bottom: 5%;
   background-color: #FFEBC9;
   color: #654321;
 }
@@ -85,7 +85,29 @@ a:hover {
   line-height: 2;
 }
 
+.project-row {
+  width: 50%;
+  margin: 3rem auto 4rem auto;
+  padding: 3rem 0 5rem 0;
+  text-align: left;
+  line-height: 2;
+}
+
+/* Images */
+
+.react-img {
+  width: 40%;
+  float: left;
+  margin: 0 50px 20px 20px;
+}
+
 .computer-img {
+  width: 40%;
+  float:right;
+  margin: 0 30px 20px 50px;
+}
+
+.github-img {
   width: 40%;
   float: left;
   margin: 0 40px 20px auto;
@@ -97,8 +119,34 @@ a:hover {
   margin: 0 auto 20px 40px;
 }
 
+.tindog-img {
+  width: 100%;
+}
+
+.notjustcode-img {
+  width: 100%;
+}
+
+.elaine-img {
+  width: 100%;
+}
+
+.github2-img {
+  width: 50%;
+}
+
 .skills {
   background-color: #FFEBC9;
+  align-items: center;
+}
+
+.projects {
+  background-color: #FFDFAF;
+  align-items: center;
+}
+
+.heading-project {
+  padding-top: 3%;
 }
 
 .bottom-container {
