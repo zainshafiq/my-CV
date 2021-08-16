@@ -1,104 +1,202 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Otomanopee One', sans-serif;
+  color: #402218;
 
-<head>
-  <meta charset="utf-8">
-  <title> Shafiq Zainuddin </title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Otomanopee+One&family=Sacramento&display=swap" rel="stylesheet">
-</head>
+}
 
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1> Shafiq Zainuddin </h1>
-    <h2><span class="h2-first-page"> A 'Noobie' Full Stack Web developer. </span></h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="mountain" src="images/mountain.png" alt="mountain-img">
-  </div>
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
 
-  <div class="middle-container">
-    <div class="profile">
-      <img style="margin-top: 30px;" src="images/Me.png" alt="me-img">
-      <h2>Hello.</h2>
-      <p class="intro"> I'm Shafiq and I just recently graduated wih a Software Systems Engineering Degree from University of Regina, Saskatchewan CA. </p>
-    </div>
+h2 {
+  font-size: 1.50rem;
+  font-family: 'Otomanopee One', sans-serif;
+  padding-top: 10px;
+}
 
-    <hr>
+p {
+  padding-bottom: 20px;
+  line-height: 2;
+}
 
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="react-img" src="images/react.png" alt="react-img">
-        <h3> Software Development </h3>
-        <p> HTML, CSS, Bootstrap, Javascript, JSX, React, Flutter, Node, PHP and SQL </p>
-      </div>
-      <div class="skill-row">
-        <img class="computer-img" src="images/computer.png" alt="computer-img">
-        <h3> Languages & Database </h3>
-        <p> C, C++, Python, Java, MySQL and MongoDB </p>
-      </div>
-      <div class="skill-row">
-        <img class="github-img" src="images/github.png" alt="github-img">
-        <h3> Software Tools & Version Control </h3>
-        <p> Git, Github, VS Code, Android Studio, Balsamiq, Linux and Windows </p>
-      </div>
-      <div class="skill-row">
-        <img class="rugby-img" src="images/rugby.png" alt="rugby-img">
-        <h3> Rugby Footy Rugby </h3>
-        <p> I was a student athlete in U of R playing for the Cougars Mens Rugby. Can't wait to be back on the field again as soon as the pandemic ends. </p>
-      </div>
+hr {
+  border: dotted #D79771 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
 
-      <hr>
+a {
+  color: white;
+  font-family: 'Otomanopee One', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
 
-      <div class="projects">
-        <h2 class="heading-project"> My Projects. </h2>
-        <div class="project-row">
-          <img class="tindog-img" src="images/tindog.png" alt="tindog-img">
-          <h3> Tindog </h3>
-          <p> A project in the form of mock-up dating sites for dogs as part of Udemy Web Development Bootcamp - provided by Dr. Angela Yu (The App Brewery) </p>
-          <a class="btn" href="https://zainshafiq.github.io/bootstrap-drangela-yu-brewery-app-tindog/"> Tindog </a>
-        </div>
-        <div class="project-row">
-          <img class="notjustcode-img" src="images/notjustcode.png" alt="notjustcode-img">
-          <h3> The Complete Recorder </h3>
-          <p> The scope of this project is to create a cross-platform recording application which will include features we believe a good and complete recorder should have. This include features such as a fully functional. user freindly recording page, organizational features and search functionality. </p>
-          <a class="btn" href="https://zainshafiq.github.io/NotJustCode/"> The Complete Recorder </a>
-        </div>
-        <div class="project-row">
-          <img class="elaine-img" src="images/elaine.png" alt="elaine-img">
-          <h3> EO's Eats </h3>
-          <p> volunteering and taking charge for one EO's Eats catering and cooking class web development utilizing tools available online - godaddy </p>
-          <a class="btn" href="https://eoseats.godaddysites.com/"> EO's Eats </a>
-        </div>
-        <div class="project-row">
-          <img class="github2-img" src="images/github2.png" alt="github2-img">
-          <h3> Past School Project </h3>
-          <p> For further school projects information - visit<a style="color: brown;" href="https://github.com/zainshafiq">Github</a></p>
-        </div>
-      </div>
+a:hover {
+  color: #402218;
+}
 
-      <hr>
+.h2-first-page {
+  font-weight: normal;
+}
 
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3> If you a fellow developer or Apex/rugby lover.</h3>
-        <p class="outro"> Feel free to contact me or follow me through social media. </p>
-        <a class="btn" href="mailto:zainshafiq594@gmail.com"> CONTACT ME </a>
-      </div>
-    </div>
-  </div>
+.intro {
+  width: 40%;
+  margin: auto;
+}
 
+.outro {
+  width: 40%;
+  margin: 40px auto 20px;
+}
 
-  <div class="bottom-container">
-    <a href="https://www.linkedin.com/in/shafiq-zainuddin-238666a7/">LinkedIn</a>
-    <a href="https://github.com/zainshafiq">Github</a>
-    <a href="https://www.instagram.com/sh4fiqzain/?hl=en">Instagram</a>
-    <p class="footer-link"> © 2021 Muhammad Ishraf Shafiq Zainuddin.</p>
-  </div>
+.contact-me {
+  padding-bottom: 5%;
+  background-color: #FFEBC9;
+  color: #654321;
+}
 
+.footer-link {
+  padding: 20px 0;
+  color: white;
+}
 
-</body>
+.top-container {
+  background-color: #D79771;
+  position: relative;
+  padding-top: 100px;
+}
 
-</html>
+.middle-container {
+  background-color: #FFEBC9;
+  padding-top: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto 12.5rem auto;
+  padding: 6.25rem 0 6.25rem 0;
+  text-align: left;
+  line-height: 2;
+}
+
+.project-row {
+  width: 50%;
+  margin: 3rem auto 4rem auto;
+  padding: 3rem 0 5rem 0;
+  text-align: left;
+  line-height: 2;
+}
+
+/* Images */
+
+.react-img {
+  width: 40%;
+  float: left;
+  margin: 0 50px 20px 20px;
+}
+
+.computer-img {
+  width: 40%;
+  float:right;
+  margin: 0 30px 20px 50px;
+}
+
+.github-img {
+  width: 40%;
+  float: left;
+  margin: 0 40px 20px auto;
+}
+
+.rugby-img {
+  width: 40%;
+  float:right;
+  margin: 0 auto 20px 40px;
+}
+
+.tindog-img {
+  width: 100%;
+}
+
+.notjustcode-img {
+  width: 100%;
+}
+
+.elaine-img {
+  width: 100%;
+}
+
+.github2-img {
+  width: 50%;
+}
+
+.skills {
+  background-color: #FFEBC9;
+  align-items: center;
+}
+
+.projects {
+  background-color: #FFDFAF;
+  align-items: center;
+}
+
+.heading-project {
+  padding-top: 3%;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #D79771;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.mountain {
+  padding-bottom: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.imagePosition {
+  padding-top: 0;
+}
+
+.btn {
+  background: #fc7114;
+  background-image: -webkit-linear-gradient(top, #fc7114, #733805);
+  background-image: -moz-linear-gradient(top, #fc7114, #733805);
+  background-image: -ms-linear-gradient(top, #fc7114, #733805);
+  background-image: -o-linear-gradient(top, #fc7114, #733805);
+  background-image: linear-gradient(to bottom, #fc7114, #733805);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Otomanopee One', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5b385;
+  background-image: -webkit-linear-gradient(top, #f5b385, #cf7004);
+  background-image: -moz-linear-gradient(top, #f5b385, #cf7004);
+  background-image: -ms-linear-gradient(top, #f5b385, #cf7004);
+  background-image: -o-linear-gradient(top, #f5b385, #cf7004);
+  background-image: linear-gradient(to bottom, #f5b385, #cf7004);
+  text-decoration: none;
+}
